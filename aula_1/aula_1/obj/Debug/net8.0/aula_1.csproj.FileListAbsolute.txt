@@ -1,0 +1,15 @@
+D:\Users\Aluno\Caio\github\aula_1\aula_1\bin\Debug\net8.0\aula_1.exe
+D:\Users\Aluno\Caio\github\aula_1\aula_1\bin\Debug\net8.0\aula_1.deps.json
+D:\Users\Aluno\Caio\github\aula_1\aula_1\bin\Debug\net8.0\aula_1.runtimeconfig.json
+D:\Users\Aluno\Caio\github\aula_1\aula_1\bin\Debug\net8.0\aula_1.dll
+D:\Users\Aluno\Caio\github\aula_1\aula_1\bin\Debug\net8.0\aula_1.pdb
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\aula_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\aula_1.AssemblyInfoInputs.cache
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\aula_1.AssemblyInfo.cs
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\aula_1.csproj.CoreCompileInputs.cache
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\aula_1.sourcelink.json
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\aula_1.dll
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\refint\aula_1.dll
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\aula_1.pdb
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\aula_1.genruntimeconfig.cache
+D:\Users\Aluno\Caio\github\aula_1\aula_1\obj\Debug\net8.0\ref\aula_1.dll
