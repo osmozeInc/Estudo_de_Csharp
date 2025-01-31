@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Caio\\Programas\\GitHub\\logica_de_programação\\aula_1\\aula_1\\aula_1.csproj": {}
+    "D:\\Users\\Aluno\\Caio\\github\\aula_1\\aula_1\\aula_1.csproj": {}
   },
   "projects": {
-    "E:\\Caio\\Programas\\GitHub\\logica_de_programação\\aula_1\\aula_1\\aula_1.csproj": {
+    "D:\\Users\\Aluno\\Caio\\github\\aula_1\\aula_1\\aula_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Caio\\Programas\\GitHub\\logica_de_programação\\aula_1\\aula_1\\aula_1.csproj",
+        "projectUniqueName": "D:\\Users\\Aluno\\Caio\\github\\aula_1\\aula_1\\aula_1.csproj",
         "projectName": "aula_1",
-        "projectPath": "E:\\Caio\\Programas\\GitHub\\logica_de_programação\\aula_1\\aula_1\\aula_1.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Caio\\Programas\\GitHub\\logica_de_programação\\aula_1\\aula_1\\obj\\",
+        "projectPath": "D:\\Users\\Aluno\\Caio\\github\\aula_1\\aula_1\\aula_1.csproj",
+        "packagesPath": "D:\\Users\\Aluno\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Aluno\\Caio\\github\\aula_1\\aula_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
