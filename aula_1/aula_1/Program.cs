@@ -6,7 +6,7 @@ class Program
         string[] resposta = new string[4] ;
         ConsoleKeyInfo confirm;
 
-        do
+        while (true)
         {
             Console.Clear();
             Console.Write("Qual seu nome? ");
@@ -27,16 +27,17 @@ class Program
                 + "\n> Matriculado no curso " + resposta[2] + " com o professor " + resposta[3]
                 + "\n\nConfirmo (enter) \nRefazer (qualquer tecla)");
             
+            confirm = Console.ReadKey();
 
-            if (float.TryParse(resposta[1], out float numero))
+            if (!float.TryParse(resposta[1], out float numero))
             {
                 Console.WriteLine("idade inválida, repita");
-                Console.ReadKey();
-                break;
+                Console.ReadLine();
+                continue;
             }
-            confirm = Console.ReadKey();
+            else if (confirm.Key == ConsoleKey.Enter)
+                break;
         }
-        while (confirm.Key != ConsoleKey.Enter);
 
         
         Cliente cliente = Salvar_Cliente(resposta);
