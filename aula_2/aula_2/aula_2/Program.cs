@@ -26,13 +26,20 @@
             return Convert.ToInt16(result);
         }
         
+
         static bool Validar_produto(string produto)
         {
             Mercadinho mercadinho = Inicializar_mercado(new Mercadinho());
             string[] quantidade_produto = produto.Split(' ');
 
-            if (quantidade_produto[0] == null || quantidade_produto[1] == null)
-                Console.WriteLine("Digite algum produto");
+            if (quantidade_produto.Length != 2)
+                Console.WriteLine("Erro");
+
+            else if (quantidade_produto[0] == "" || quantidade_produto[1] == "")
+                Console.WriteLine("Digite a quantidade e o produto");
+
+            else if (quantidade_produto[0] == null || quantidade_produto[1] == null)
+                Console.WriteLine("Digite a quantidade e o produto");
 
             else if (!float.TryParse(quantidade_produto[0], out float quantidade))
                 Console.WriteLine("quantidade inválida");
@@ -42,8 +49,10 @@
 
             else return true;
 
+            Thread.Sleep(1000);
             return false;
         }
+
 
         static Mercadinho Inicializar_mercado(Mercadinho mercadinho)
         {
@@ -70,6 +79,7 @@
             }
         }
 
+
         static void Realizar_acao(int opcao)
         {
             switch (opcao)
@@ -91,6 +101,7 @@
                     return;
             }
         }
+
 
         static void Montar_carrinho()
         {
@@ -132,7 +143,7 @@
         static void Pagar(List<string> carrinho)
         {
             Console.Clear();
-            Console.WriteLine("\no seu carrinho é:");
+            Console.WriteLine("\n seu carrinho é:");
 
             for (int i = 0; i < carrinho.Count; i++)
             {
