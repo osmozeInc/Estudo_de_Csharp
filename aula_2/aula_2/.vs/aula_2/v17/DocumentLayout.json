@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\Aluno\\Caio\\github\\aula_2\\aula_2\\",
+  "WorkspaceRootPath": "E:\\Caio\\Programas\\GitHub\\logica_de_programa\u00E7\u00E3o\\aula_2\\aula_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF9030D8-21ED-4ADD-9152-F965E27792BB}|aula_2\\aula_2.csproj|d:\\users\\aluno\\caio\\github\\aula_2\\aula_2\\aula_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF9030D8-21ED-4ADD-9152-F965E27792BB}|aula_2\\aula_2.csproj|e:\\caio\\programas\\github\\logica_de_programa\u00E7\u00E3o\\aula_2\\aula_2\\aula_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF9030D8-21ED-4ADD-9152-F965E27792BB}|aula_2\\aula_2.csproj|solutionrelative:aula_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\Aluno\\Caio\\github\\aula_2\\aula_2\\aula_2\\Program.cs",
+              "DocumentMoniker": "E:\\Caio\\Programas\\GitHub\\logica_de_programa\u00E7\u00E3o\\aula_2\\aula_2\\aula_2\\Program.cs",
               "RelativeDocumentMoniker": "aula_2\\Program.cs",
-              "ToolTip": "D:\\Users\\Aluno\\Caio\\github\\aula_2\\aula_2\\aula_2\\Program.cs",
+              "ToolTip": "E:\\Caio\\Programas\\GitHub\\logica_de_programa\u00E7\u00E3o\\aula_2\\aula_2\\aula_2\\Program.cs",
               "RelativeToolTip": "aula_2\\Program.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAKQAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T19:28:48.225Z",
               "EditorCaption": ""
