@@ -82,25 +82,25 @@ namespace aula_3
 
         private void mais_Click(object sender, EventArgs e)
         {
-            armazenar_entradas("mais");
+            armazenar_entradas("+");
             input.Text = "";
         }
 
         private void menos_Click(object sender, EventArgs e)
         {
-            armazenar_entradas("menos");
+            armazenar_entradas("-");
             input.Text = "";
         }
 
         private void mult_Click(object sender, EventArgs e)
         {
-            armazenar_entradas("multiplicação");
+            armazenar_entradas("*");
             input.Text = "";
         }
 
         private void div_Click(object sender, EventArgs e)
         {
-            armazenar_entradas("divisão");
+            armazenar_entradas("/");
             input.Text = "";
         }
 
@@ -116,27 +116,44 @@ namespace aula_3
             input.Text = "";
             entradas = new float[20];
             operadores = new string[20];
+            cont = 0;
         }
 
         private void equal_Click(object sender, EventArgs e)
         {
             float resultado = entradas[0];
 
-            for (int i = 0; i < cont; i++)
+            armazenar_entradas("=");
+
+            for (int i = 1, j = 0; i <= cont; i++, j++)
             {
-                float numero1 = resultado;
-                float numero2 = entradas[i+1];
-                Console.WriteLine(numero1 + " " + numero2 + " " + resultado + " " + cont);
-
-
-                if (operadores[i] == "mais")
+                if (operadores[j] == "+")
                 {
-                    resultado = numero1 + numero2;
+                    resultado += entradas[i];
                 }
-                Console.WriteLine(resultado);
+                else if (operadores[j] == "-")
+                {
+                    resultado -= entradas[i];
+                }
+                else if (operadores[j] == "/")
+                {
+                    resultado = resultado / entradas[i];
+                }
+                else if (operadores[j] == "*")
+                {
+                    Console.WriteLine("operação de menos\n"
+                        + "\noperador: " + operadores[j]
+                        + "\nr: " + resultado * entradas[i]
+                        + "\nn1: " + entradas[0]
+                        + "\nn2: " + entradas[i]
+                        + "\ncont: " + cont);
+                    resultado = resultado * entradas[i];
+                }
+                else if (operadores[j] == "=")
+                {
+                    input.Text = Convert.ToString(resultado);
+                }
             }
-
-            input.Text = "";
         }
     }
 }

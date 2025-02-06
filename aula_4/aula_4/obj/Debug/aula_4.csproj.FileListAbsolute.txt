@@ -1,0 +1,10 @@
+D:\Users\Aluno\Caio\github\aula_4\aula_4\bin\Debug\aula_4.exe.config
+D:\Users\Aluno\Caio\github\aula_4\aula_4\bin\Debug\aula_4.exe
+D:\Users\Aluno\Caio\github\aula_4\aula_4\bin\Debug\aula_4.pdb
+D:\Users\Aluno\Caio\github\aula_4\aula_4\obj\Debug\aula_4.csproj.AssemblyReference.cache
+D:\Users\Aluno\Caio\github\aula_4\aula_4\obj\Debug\aula_4.Form1.resources
+D:\Users\Aluno\Caio\github\aula_4\aula_4\obj\Debug\aula_4.Properties.Resources.resources
+D:\Users\Aluno\Caio\github\aula_4\aula_4\obj\Debug\aula_4.csproj.GenerateResource.cache
+D:\Users\Aluno\Caio\github\aula_4\aula_4\obj\Debug\aula_4.csproj.CoreCompileInputs.cache
+D:\Users\Aluno\Caio\github\aula_4\aula_4\obj\Debug\aula_4.exe
+D:\Users\Aluno\Caio\github\aula_4\aula_4\obj\Debug\aula_4.pdb

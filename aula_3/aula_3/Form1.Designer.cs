@@ -56,9 +56,10 @@
             this.input.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.input.Location = new System.Drawing.Point(12, 12);
             this.input.Name = "input";
-            this.input.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.input.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.input.Size = new System.Drawing.Size(230, 38);
             this.input.TabIndex = 3;
+            this.input.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.input.TextChanged += new System.EventHandler(this.input_TextChanged);
             // 
             // btn0
