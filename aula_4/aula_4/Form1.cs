@@ -57,7 +57,7 @@ namespace aula_4
                         break;
                 }
             }
-            await Task.Delay(300);
+            await Task.Delay(250);
             Resetar_imagem();
         }
 
