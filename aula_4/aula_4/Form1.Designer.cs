@@ -28,39 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.snake = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.snake)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // snake
             // 
-            this.pictureBox1.Image = global::aula_4.Properties.Resources.logosenacv2__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(636, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(152, 99);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.snake.BackColor = System.Drawing.Color.Transparent;
+            this.snake.Image = global::aula_4.Properties.Resources.pers_right;
+            this.snake.Location = new System.Drawing.Point(102, 169);
+            this.snake.Name = "snake";
+            this.snake.Size = new System.Drawing.Size(100, 100);
+            this.snake.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snake.TabIndex = 0;
+            this.snake.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Linen;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox1);
+            this.BackColor = System.Drawing.Color.DarkOliveGreen;
+            this.ClientSize = new System.Drawing.Size(384, 361);
+            this.Controls.Add(this.snake);
             this.Cursor = System.Windows.Forms.Cursors.PanSE;
+            this.KeyPreview = true;
+            this.MaximumSize = new System.Drawing.Size(400, 400);
+            this.MinimumSize = new System.Drawing.Size(400, 400);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snake)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox snake;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }
 
