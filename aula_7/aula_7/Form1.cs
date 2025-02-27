@@ -8,8 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
-using MailKit.Net.Smtp;
-using MimeKit;
+using System.Net.Mail;
+using System.Net;
 
 namespace aula_7
 {
@@ -23,6 +23,7 @@ namespace aula_7
         private void Form1_Load(object sender, EventArgs e)
         {
             erro_email.Visible = false;
+            label2.Visible = false;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -53,23 +54,22 @@ namespace aula_7
 
         private void EnviarEmail()
         {
-            var menssagem = new MimeMessage();
+            SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
+            MailMessage mailMessage = new MailMessage();
 
-            menssagem.From.Add(new MailboxAddress("caio", RetornarValores("email")));
-            menssagem.To.Add(new MailboxAddress("teste", textBox1.Text));
-            menssagem.Subject = "assunto aqui";
-            menssagem.Body = new TextPart("plain")
-            {
-                Text = "oi"
-            };
+            client.EnableSsl = true; // Usar SSL/TLS
+            client.UseDefaultCredentials = false;
+            client.Credentials = new NetworkCredential(RetornarValores("email"), RetornarValores("senha"));
+            
+            mailMessage.From = new MailAddress(RetornarValores("email"));
+            mailMessage.To.Add(textBox1.Text);
+            mailMessage.IsBodyHtml = false;
+            
+            mailMessage.Subject = "Cadastro";
+            mailMessage.Body = "Cadastro realizado com sucesso!";
 
-            using (var client = new SmtpClient())
-            {
-                client.Connect("smtp.gmail.com", 587, false);
-                client.Authenticate(RetornarValores("email"), RetornarValores("senha"));
-                client.Send(menssagem);
-                client.Disconnect(true);
-            }
+            client.Send(mailMessage);
+            label2.Visible = true;
         }
 
         private string RetornarValores(string valores)

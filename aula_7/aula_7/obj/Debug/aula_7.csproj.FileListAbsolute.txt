@@ -32,3 +32,4 @@ D:\Users\Aluno\Caio\github\aula_7\aula_7\bin\Debug\System.Runtime.CompilerServic
 D:\Users\Aluno\Caio\github\aula_7\aula_7\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Users\Aluno\Caio\github\aula_7\aula_7\bin\Debug\System.ValueTuple.xml
 D:\Users\Aluno\Caio\github\aula_7\aula_7\obj\Debug\aula_7.csproj.Up2Date
+D:\Users\Aluno\Caio\github\aula_7\aula_7\bin\Debug\System.Net.Mail.Abstractions.dll

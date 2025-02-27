@@ -34,6 +34,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.erro_email = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // termos
@@ -59,10 +60,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.textBox1.Location = new System.Drawing.Point(63, 147);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(402, 38);
+            this.textBox1.Size = new System.Drawing.Size(402, 30);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -88,11 +89,22 @@
             this.erro_email.TabIndex = 7;
             this.erro_email.Text = "Email invalido";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label2.Location = new System.Drawing.Point(196, 305);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(135, 17);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Usuário cadastrado!";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.erro_email);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
@@ -114,6 +126,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label erro_email;
+        private System.Windows.Forms.Label label2;
     }
 }
 
