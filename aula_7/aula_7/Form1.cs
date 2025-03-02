@@ -62,7 +62,7 @@ namespace aula_7
             client.Credentials = new NetworkCredential(RetornarValores("email"), RetornarValores("senha"));
             
             mailMessage.From = new MailAddress(RetornarValores("email"));
-            mailMessage.To.Add(textBox1.Text);
+            mailMessage.To.Add(RetornarValores("email"));
             mailMessage.IsBodyHtml = false;
             
             mailMessage.Subject = "Cadastro";

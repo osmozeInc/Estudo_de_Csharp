@@ -8,3 +8,13 @@ D:\Users\Aluno\Caio\github\aula_6\aula_6\obj\Debug\aula_6.csproj.GenerateResourc
 D:\Users\Aluno\Caio\github\aula_6\aula_6\obj\Debug\aula_6.csproj.CoreCompileInputs.cache
 D:\Users\Aluno\Caio\github\aula_6\aula_6\obj\Debug\aula_6.exe
 D:\Users\Aluno\Caio\github\aula_6\aula_6\obj\Debug\aula_6.pdb
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\bin\Debug\aula_6.exe.config
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\bin\Debug\aula_6.exe
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\bin\Debug\aula_6.pdb
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\obj\Debug\aula_6.csproj.AssemblyReference.cache
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\obj\Debug\aula_6.Form1.resources
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\obj\Debug\aula_6.Properties.Resources.resources
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\obj\Debug\aula_6.csproj.GenerateResource.cache
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\obj\Debug\aula_6.csproj.CoreCompileInputs.cache
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\obj\Debug\aula_6.exe
+E:\Caio\Programas\GitHub\Estudo_de_Csharp\aula_6\aula_6\obj\Debug\aula_6.pdb

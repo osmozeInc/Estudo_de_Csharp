@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\Aluno\\Caio\\github\\aula_7\\",
+  "WorkspaceRootPath": "E:\\Caio\\Programas\\GitHub\\Estudo_de_Csharp\\aula_7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7E588E1-708E-45EF-B08C-A5CB26725184}|aula_7\\aula_7.csproj|d:\\users\\aluno\\caio\\github\\aula_7\\aula_7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7E588E1-708E-45EF-B08C-A5CB26725184}|aula_7\\aula_7.csproj|e:\\caio\\programas\\github\\estudo_de_csharp\\aula_7\\aula_7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7E588E1-708E-45EF-B08C-A5CB26725184}|aula_7\\aula_7.csproj|solutionrelative:aula_7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7E588E1-708E-45EF-B08C-A5CB26725184}|aula_7\\aula_7.csproj|D:\\Users\\Aluno\\Caio\\github\\aula_7\\aula_7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E7E588E1-708E-45EF-B08C-A5CB26725184}|aula_7\\aula_7.csproj|E:\\Caio\\Programas\\GitHub\\Estudo_de_Csharp\\aula_7\\aula_7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7E588E1-708E-45EF-B08C-A5CB26725184}|aula_7\\aula_7.csproj|solutionrelative:aula_7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Users\\Aluno\\Caio\\github\\aula_7\\aula_7\\Form1.cs",
+              "DocumentMoniker": "E:\\Caio\\Programas\\GitHub\\Estudo_de_Csharp\\aula_7\\aula_7\\Form1.cs",
               "RelativeDocumentMoniker": "aula_7\\Form1.cs",
-              "ToolTip": "D:\\Users\\Aluno\\Caio\\github\\aula_7\\aula_7\\Form1.cs",
+              "ToolTip": "E:\\Caio\\Programas\\GitHub\\Estudo_de_Csharp\\aula_7\\aula_7\\Form1.cs",
               "RelativeToolTip": "aula_7\\Form1.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAiwFUAAAAWAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAiwEAAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T17:47:52.418Z",
               "EditorCaption": ""
@@ -41,13 +41,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Users\\Aluno\\Caio\\github\\aula_7\\aula_7\\Form1.cs",
+              "DocumentMoniker": "E:\\Caio\\Programas\\GitHub\\Estudo_de_Csharp\\aula_7\\aula_7\\Form1.cs",
               "RelativeDocumentMoniker": "aula_7\\Form1.cs",
               "ToolTip": "D:\\Users\\Aluno\\Caio\\github\\aula_7\\aula_7\\Form1.cs [Design]",
-              "RelativeToolTip": "aula_7\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:34:53.161Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-26T17:34:53.161Z"
             }
           ]
         }
